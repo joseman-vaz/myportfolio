@@ -1,4 +1,6 @@
 import Bio from "./Bio";
+import Icons from "./Icons";
+import { useState, useEffect } from "react";
 
 const projects = [
   {
@@ -22,6 +24,17 @@ const projects = [
 ];
 
 const ProjectSection = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <>
       <section
@@ -50,6 +63,10 @@ const ProjectSection = () => {
             ))}
           </div>
         </div>
+        <footer className="project_footer text-center mt-2">
+          {windowWidth <= 640 && <Icons />}
+          Jose Vazquez @2023
+        </footer>
       </section>
     </>
   );

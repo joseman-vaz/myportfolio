@@ -13,7 +13,7 @@ const Header = () => {
               className="image avatar rounded-full overflow-hidden mb-4 sm:mb-8"
             >
               <img
-                src="/assets/me_small_size.png"
+                src="/myportfolio/assets/me_small_size.png"
                 alt="me_small"
                 className="w-24 h-24 sm:w-32 sm:h-32"
               />

@@ -3,19 +3,19 @@ import Bio from "./Bio";
 const projects = [
   {
     title: "Scroll/Ai",
-    imageUrl: "/public/assets/scrollAi_proyect.png",
+    imageUrl: "/assets/scrollAi_proyect.png",
     description:
       "Scroll AI is an application that leverages the power of DALL·E, OpenAI's image generation model, to bring your text descriptions to life through images",
   },
   {
     title: "Devnout",
-    imageUrl: "/public/assets/devnout_app.png",
+    imageUrl: "/assets/devnout_app.png",
     description:
       "The inspiration behind DevNout was my own journey as a junior developer, where I realized the importance of taking concise, structured notes to retain and review crucial concepts.",
   },
   {
     title: "Candy Crusher",
-    imageUrl: "/public/assets/candy_crusher_game.png",
+    imageUrl: "/assets/candy_crusher_game.png",
     description:
       "A clone of a popular game. This was my first Bootcamp project. Crated using plain Javascript to manipulate the DOM.",
   },

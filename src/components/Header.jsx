@@ -1,4 +1,17 @@
+import { useEffect } from "react";
+import Typed from "typed.js";
+
 const Header = () => {
+  useEffect(() => {
+    const typedText = new Typed("#typed-text", {
+      strings: ["Fullstack web applications", "Beautiful frontend pages"],
+      typeSpeed: 100,
+      loop: true,
+    });
+    return () => {
+      typedText.destroy();
+    };
+  }, []);
   return (
     <>
       <header
@@ -25,7 +38,11 @@ const Header = () => {
               <br />
             </h1>
             <p className="text-white text-sm sm:text-base text-right pt-3">
-              My name is Jose Vazquez. I create Fullstack web applications.
+              My name is Jose Vazquez. I create <br />
+              <span id="typed-text" className="typing-text">
+                Fullstack web applications
+              </span>
+              .
             </p>
           </div>
           <footer id="footer" className="w-full sm:pb-4 md:pb-2 custom:pb-2">

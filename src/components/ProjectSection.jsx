@@ -1,27 +1,7 @@
 import Bio from "./Bio";
 import Icons from "./Icons";
 import { useState, useEffect } from "react";
-
-const projects = [
-  {
-    title: "Scroll/Ai",
-    imageUrl: "/myportfolio/assets/scrollAi_proyect.png",
-    description:
-      "Scroll AI is an application that leverages the power of DALL·E, OpenAI's image generation model, to bring your text descriptions to life through images",
-  },
-  {
-    title: "Devnout",
-    imageUrl: "/myportfolio/assets/devnout_app.png",
-    description:
-      "The inspiration behind DevNout was my own journey as a junior developer, where I realized the importance of taking concise, structured notes to retain and review crucial concepts.",
-  },
-  {
-    title: "Candy Crusher",
-    imageUrl: "/myportfolio/assets/candy_crusher_game.png",
-    description:
-      "A clone of a popular game. This was my first Bootcamp project. Crated using plain Javascript to manipulate the DOM.",
-  },
-];
+import projects from "./data/projects";
 
 const ProjectSection = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -50,7 +30,9 @@ const ProjectSection = () => {
           <div className="grid gap-6">
             {projects.map((project, index) => (
               <div key={index}>
-                <h2 className="text-left text-xl mb-2">{project.title}</h2>
+                <h2 className="text-left text-xl mb-2 font-semibold">
+                  {project.title}
+                </h2>
                 <img
                   src={project.imageUrl}
                   alt={`Project ${index + 1}`}
@@ -58,6 +40,10 @@ const ProjectSection = () => {
                 />
 
                 <p className="text-left">{project.description}</p>
+                <br />
+                <p className="font-semibold">
+                  Technologies: {project.technologies}
+                </p>
                 <hr className="mt-4"></hr>
               </div>
             ))}

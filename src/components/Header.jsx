@@ -44,7 +44,7 @@ const Header = () => {
               <br />
             </h1>
             <p className="text-white text-2xl sm:text-3xl text-right leading-9">
-              I develope <br />
+              I develop <br />
               <span id="typed-text" className="typing-text">
                 Fullstack web applications
               </span>

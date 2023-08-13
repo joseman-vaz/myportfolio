@@ -4,7 +4,11 @@ import Typed from "typed.js";
 const Header = () => {
   useEffect(() => {
     const typedText = new Typed("#typed-text", {
-      strings: ["Fullstack web applications"],
+      strings: [
+        "Fullstack web applications",
+        "Responsive websites",
+        "Efficient back-end solutions",
+      ],
       typeSpeed: 100,
       loop: true,
     });
@@ -32,13 +36,15 @@ const Header = () => {
               />
             </a>
           </div>
-          <div className="w-full flex flex-col justify-center">
-            <h1 className="text-white text-2xl sm:text-3xl text-right leading-9">
-              <strong>Hello! I am a Fullstack Web Developer</strong>
+          <div className="w-full flex flex-col justify-center text-bold">
+            <h1 className="text-white text-2xl sm:text-3xl text-right leading-9 ">
+              <strong className="hover:text-violet-400">
+                Hello! I am Jose Vazquez.
+              </strong>
               <br />
             </h1>
-            <p className="text-white text-sm sm:text-base text-right pt-3">
-              My name is Jose Vazquez. I create <br />
+            <p className="text-white text-2xl sm:text-3xl text-right leading-9">
+              I develope <br />
               <span id="typed-text" className="typing-text">
                 Fullstack web applications
               </span>

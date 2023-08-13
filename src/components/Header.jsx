@@ -10,6 +10,9 @@ const Header = () => {
         "Efficient back-end solutions",
       ],
       typeSpeed: 100,
+      backSpeed: 50,
+      startDelay: 500,
+      backDelay: 1500,
       loop: true,
     });
     return () => {

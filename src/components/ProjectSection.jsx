@@ -22,7 +22,6 @@ const ProjectSection = () => {
         className="bg-gray-100 py-10 flex-1 text-slate-500"
       >
         <div className="container mx-auto px-10">
-          <Bio />
           <hr></hr>
           <h1 className="text-2xl font-bold mb-6 mt-6 text-gray-700">
             Recent Work

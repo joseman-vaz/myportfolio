@@ -1,5 +1,8 @@
 import Header from "../components/Header";
 import ProjectSection from "../components/ProjectSection";
+import Bio from "../components/Bio";
+import Tech from "../components/Tech";
+import News from "../components/News";
 
 const Home = () => {
   return (
@@ -8,9 +11,13 @@ const Home = () => {
         <Header />
       </div>
       <div className="col-span-1 sm:col-span-2 md:col-span-2 lg:col-span-2 xl:col-span-2">
+        <Bio />
+        <Tech />
         <ProjectSection />
+        {/* <News /> */}
       </div>
     </div>
   );
 };
+
 export default Home;

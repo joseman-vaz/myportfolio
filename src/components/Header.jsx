@@ -4,7 +4,7 @@ import Typed from "typed.js";
 const Header = () => {
   useEffect(() => {
     const typedText = new Typed("#typed-text", {
-      strings: ["Fullstack web applications", "Beautiful frontend pages"],
+      strings: ["Fullstack web applications"],
       typeSpeed: 100,
       loop: true,
     });

@@ -5,7 +5,7 @@ const projects = [
     description:
       "Scroll AI is an application that leverages the power of DALL·E, OpenAI's image generation model, to bring your text descriptions to life through images. Scroll Ai was the final project in my Web Development bootcamp. I had the honor to win the Ironhack's Hackshow with this app in July 2023.",
     technologies:
-      "React, ExpressJS, Mongoose, NodeJS, MongoAtlas, OpenAi API, Axios, Tailwind",
+      "React, ExpressJS, Mongoose, NodeJS, MongoAtlas, OpenAi API, Axios, Tailwind, JWT for authentication",
   },
   {
     title: "Devnout",

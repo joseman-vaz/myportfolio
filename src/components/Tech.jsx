@@ -1,4 +1,5 @@
 import technologies from "./data/technologies";
+import { motion } from "framer-motion";
 
 const Tech = () => {
   return (
@@ -11,11 +12,17 @@ const Tech = () => {
           <div className="flex flex-wrap justify-center gap-6">
             {technologies.map((tech, index) => (
               <div key={index} className="flex flex-col items-center">
-                <img
-                  src={tech.imageUrl}
-                  alt={tech.name}
-                  className="max-h-16 max-w-16 mb-2"
-                />
+                <motion.div
+                  className="box"
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <img
+                    src={tech.imageUrl}
+                    alt={tech.name}
+                    className="max-h-16 max-w-16 mb-2"
+                  />
+                </motion.div>
                 <p>{tech.name}</p>
               </div>
             ))}

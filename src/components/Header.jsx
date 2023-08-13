@@ -23,7 +23,7 @@ const Header = () => {
     <>
       <header
         id="header"
-        className="sticky top-0 left-0 h-screen bg-gradient-to-r from-black to-gray-900 bg-noise bg-opacity-50 p-4"
+        className="sticky top-0 left-0 h-screen bg-gradient-to-r from-black to-gray-900 bg-noise bg-opacity-50 p-4 rounded-r-lg"
         style={{ display: "flex", alignItems: "center" }}
       >
         <div className="inner flex flex-col items-center p-10 w-full">

@@ -1,4 +1,3 @@
-import Bio from "./Bio";
 import Icons from "./Icons";
 import { useState, useEffect } from "react";
 import projects from "./data/projects";
@@ -35,7 +34,7 @@ const ProjectSection = () => {
                 <img
                   src={project.imageUrl}
                   alt={`Project ${index + 1}`}
-                  className="bg-contain mb-4 rounded "
+                  className="bg-contain mb-4 rounded-lg shadow-lg "
                 />
 
                 <p className="text-left">{project.description}</p>
@@ -50,7 +49,7 @@ const ProjectSection = () => {
         </div>
         <footer className="project_footer text-center mt-2">
           {windowWidth <= 640 && <Icons />}
-          Jose Vazquez @2023
+          💜 Jose Vazquez @2023
         </footer>
       </section>
     </>

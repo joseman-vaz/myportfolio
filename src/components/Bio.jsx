@@ -6,12 +6,12 @@ const Bio = () => {
           <div className="mb-2">
             <h1 className="text-2xl font-bold mb-3 text-gray-700">About Me</h1>
             <p className="text-base">
-              I am a creative Web Developer. I enjoy building the back end and
-              the front end of a website. I specialize in the MERN Stack to
-              bring ideas to life. You can find me working with everything
-              Javascript, HTML, CSS, and frameworks like Tailwind and Bootstrap.
-              Lately, I've been drawn to explore Framer Motion, React Spring,
-              and other frontend modern technologies.
+              I am a Web Developer. I enjoy building the back end and the front
+              end of a website. I specialize in the MERN Stack to bring ideas to
+              life. You can find me working with everything Javascript, HTML,
+              CSS, and frameworks like Tailwind and Bootstrap. Lately, I've been
+              drawn to explore Framer Motion, React Spring, and other frontend
+              modern technologies.
             </p>
           </div>
           <div className="mb-0">

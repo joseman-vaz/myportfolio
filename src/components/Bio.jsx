@@ -9,9 +9,9 @@ const Bio = () => {
               I am a Web Developer. I enjoy building the back end and the front
               end of a website. I specialize in the MERN Stack to bring ideas to
               life. You can find me working with everything Javascript, HTML,
-              CSS, and frameworks like Tailwind and Bootstrap. Lately, I've been
-              drawn to explore Framer Motion, React Spring, and other frontend
-              modern technologies.
+              CSS, and frameworks like Tailwind and Bootstrap. Lately, you can
+              find me exploring Spline, ThreeJS, Framer Motion, and React
+              Spring.
             </p>
           </div>
           <div className="mb-0">

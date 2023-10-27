@@ -3,6 +3,7 @@ import ProjectSection from "../components/ProjectSection";
 import Bio from "../components/Bio";
 import Tech from "../components/Tech";
 import News from "../components/News";
+// import SplineComponent from "../components/SplineComponent";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Tech />
         <ProjectSection />
         {/* <News /> */}
+        {/* <SplineComponent /> */}
       </div>
     </div>
   );

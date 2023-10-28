@@ -11,7 +11,10 @@ const technologies = [
     name: "JavaScript",
     imageUrl: "./assets/myportfolio/javascript.png",
   },
-  // Add more technologies here
+  {
+    name: "Spline",
+    imageUrl: "./assets/myportfolio/spline.png",
+  },
 ];
 
 export default technologies;

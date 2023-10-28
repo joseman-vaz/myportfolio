@@ -42,6 +42,19 @@ const ProjectSection = () => {
                 <p className="font-semibold">
                   Technologies: {project.technologies}
                 </p>
+                <p className="bold">
+                  {project.url ? (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Go to app
+                    </a>
+                  ) : (
+                    "Under Maintenance"
+                  )}
+                </p>
                 <hr className="mt-4"></hr>
               </div>
             ))}

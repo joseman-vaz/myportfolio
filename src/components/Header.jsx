@@ -71,7 +71,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="mailto:vazquez.lopez.josem@gmail.com"
+                    href="mailto:vazquezjman@gmail.com"
                     className="icon fa fa-envelope fa-2x"
                   ></a>
                 </li>

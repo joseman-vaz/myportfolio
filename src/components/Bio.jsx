@@ -10,8 +10,8 @@ const Bio = () => {
               end of a website. I specialize in the MERN Stack to bring ideas to
               life. You can find me working with everything Javascript, HTML,
               CSS, and frameworks like Tailwind and Bootstrap. Lately, you can
-              find me exploring Framer Motion,React Spring and creative coding
-              with canvas-sketch, Spline, and ThreeJS.
+              find me exploring Framer Motion, React Spring and creative coding
+              with Canvas-Sketch, Spline, and ThreeJS.
             </p>
           </div>
           <div className="mb-0">

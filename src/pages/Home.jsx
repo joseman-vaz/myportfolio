@@ -3,7 +3,7 @@ import ProjectSection from "../components/ProjectSection";
 import Bio from "../components/Bio";
 import Tech from "../components/Tech";
 import News from "../components/News";
-// import SplineComponent from "../components/SplineComponent";
+import SplineComponent from "../components/SplineComponent";
 
 const Home = () => {
   return (
@@ -13,10 +13,10 @@ const Home = () => {
       </div>
       <div className="col-span-1 sm:col-span-2 md:col-span-2 lg:col-span-2 xl:col-span-2">
         <Bio />
+        <SplineComponent />
         <Tech />
         <ProjectSection />
         {/* <News /> */}
-        {/* <SplineComponent /> */}
       </div>
     </div>
   );
